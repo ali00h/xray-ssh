@@ -1,0 +1,24 @@
+{
+  "inbounds": [{
+    "port": 9110,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [
+        {
+          "id": "bd8c4af3-91b8-4d4b-abb4-09886c4c3828"
+        }
+      ]
+    }
+  }],
+  "outbounds": [
+      {
+        "protocol": "socks",
+        "settings": {
+			"servers": [{
+				"address": "127.0.0.1",
+				"port": 25631
+			}]
+        }
+      }
+    ]
+}
